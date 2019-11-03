@@ -24,12 +24,12 @@ function App() {
                   <img
                     className="card-img-top img-fluid"
                     src={authors[0].imageUrl}
-                    alt={authors[0].first_name + authors[0].last_name}
+                    alt={`${authors[0].first_name} ${authors[0].last_name}`}
                   />
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">
-                    <span>{authors[0].first_name + authors[0].last_name}</span>
+                    <span>{`${authors[0].first_name} ${authors[0].last_name}`}</span>
                   </h5>
                   <small className="card-text">
                     {authors[0].books.length} books
@@ -43,15 +43,15 @@ function App() {
                   <img
                     className="card-img-top img-fluid"
                     src={authors[1].imageUrl}
-                    alt={authors[1].first_name + authors[1].last_name}
+                    alt={`${authors[1].first_name} ${authors[1].last_name}`}
                   />
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">
-                    <span>{authors[1].first_name + authors[1].last_name}</span>
+                    <span>{`${authors[1].first_name} ${authors[1].last_name}`}</span>
                   </h5>
                   <small className="card-text">
-                    {authors[0].books.length} books
+                    {authors[1].books.length} books
                   </small>
                 </div>
               </div>
@@ -62,12 +62,12 @@ function App() {
                   <img
                     className="card-img-top img-fluid"
                     src={authors[2].imageUrl}
-                    alt={authors[2].first_name + authors[2].last_name}
+                    alt={`${authors[2].first_name} ${authors[2].last_name}`}
                   />
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">
-                    <span>{authors[2].first_name + authors[2].last_name}</span>
+                    <span>{`${authors[2].first_name} ${authors[2].last_name}`}</span>
                   </h5>
                   <small className="card-text">
                     {authors[2].books.length} books
